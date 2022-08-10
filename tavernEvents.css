@@ -1,0 +1,60 @@
+* {
+    font-family: monospace;
+    font-size: 1em;
+    text-align: center;
+    margin: 0.5em;
+}
+body {
+    background: linear-gradient(-90deg,rgb(186, 0, 218), rgb(0, 0, 0));
+}
+.banner {
+    padding: 1em 1em 0.25em 1em;
+    font-size: 1.75em;
+    color: #fff;
+    text-align: start;
+}
+article {
+    background-color: grey;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    height: 17em;
+    position: relative;
+}
+article img {
+    height: 17em;
+    border-radius: 1em;
+    width: 29.25em;
+}
+.eventCnt {
+    color: #fff;
+    background-color: transparent;
+    margin: 1em;
+}
+.eventLabel {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    font-size: 1.5em;
+    background-color: rgba(0,0,0,0.65);
+    padding: 0.75em;
+    border-radius: 1em;
+}
+article p {
+    background-color: rgba(0,0,0,0.65);
+    position: absolute;
+    padding: 0.75em;
+    top: 6em;
+    left: 1.5em;
+    margin-right: 2em;
+    border-radius: 1em;
+}
+article a {
+    background: linear-gradient(-30deg, rgb(255, 46, 168), rgb(147, 17, 132));
+    position: absolute;
+    text-decoration: none;
+    color: #000;
+    padding: 0.5em;
+    border-radius: 1em;
+    margin-top: -3.5em;
+    width: 7em;
+}

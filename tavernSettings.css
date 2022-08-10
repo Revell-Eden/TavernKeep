@@ -1,0 +1,60 @@
+/*Settings*/
+body {
+    background: linear-gradient(90deg, #000,rgb(186,0,218));
+    align-items: center;
+}
+article ul {
+    padding: 1em 2em;
+}
+article li {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    border-bottom: 3px solid #fff;
+    padding: 1em;
+}
+article li:hover {
+    background-color: #fff;
+    color: rgb(186,0,218);
+}
+label h2{
+    font-size: 1.25em;
+    color: #fff;
+} 
+aside img {
+    width: 3em;
+    height: 3em;
+    border-radius: 1.5em;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 1em;
+    color: #fff;
+    align-items: center;
+}
+aside p {
+    padding-left: 0.75em;
+}
+.creators {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.publisher {
+    color: rgb(255,255,255,0.6);
+    margin-top: 1em;
+    justify-content: center;
+    display: flex;
+    font-size: 0.75em;
+}
+.esc {
+    position: absolute;
+    top: 0.75em;
+    right: 0.75em;
+    padding: 0.25em 0.5em;
+    background: linear-gradient(-30deg, rgb(255, 46, 168), rgb(147, 17, 132));
+    border-radius: 1em;
+    border: 3px solid #fff;
+    color: #fff;
+}

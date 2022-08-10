@@ -1,0 +1,77 @@
+* {
+    font-family: monospace;
+    font-size: 1em;
+    text-align: center;
+    margin: 0;
+}
+body {
+    background: linear-gradient(-90deg, rgb(186, 0, 218), rgb(0, 0, 0));
+}
+textarea {
+    resize: none;
+    background: linear-gradient(90deg, #000,rgb(186,0,218));
+    display: flex;
+    border-radius: 1em 0 0 1em;
+    width: 100%;
+    height: 1.8em;
+    padding: 0.75em 0 0 0;
+    border: 3px solid #fff;
+    color: #fff;
+}
+.catalogueSect {
+    margin: 1em;
+}
+.searchHeader {
+    background: linear-gradient(90deg, #000,rgb(186,0,218));
+    margin-bottom: 0.5em;
+    margin: 0;
+    padding: 1em 0.5em 0.25em 0.5em;
+}
+.searchBar {
+    border-radius: 1em 0 0 1em;
+    display: flex;
+    margin-bottom: 0.5em;
+}
+.searchBtn {
+    border-radius: 0 1em 1em 0;
+    width: 3em;
+    height: 3em;
+    border: 3px solid #fff;
+    border-left: none;
+}
+article {
+    padding: 0.5em;
+    background: linear-gradient(90deg, #000,rgb(186,0,218));
+    color: #fff;
+    display: flex;
+    margin-bottom: 0.5em;
+    border-radius: 1em;
+    border: 3px solid #fff;
+}
+article img {
+    border-radius: 0.5em;
+}
+article aside {
+    display: flex;
+    height: 1.5em;
+}
+article label h4{
+    height: 1.5em;
+}
+article p {
+    height: 1.5em;
+}
+.catalogueCnt {
+    display: block;
+    margin-left: 1em;
+}
+.catalogueCnt label {
+    margin-right: 1em;
+}
+.catalogueCnt p {
+    margin-right: 1em;
+}
+.catalogueImg {
+    width: 5em;
+    height: 6em;
+}

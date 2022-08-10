@@ -1,0 +1,19 @@
+{
+  "name": "tavernkeep",
+  "version": "1.0.0",
+  "description": "A mobile Bartender by your side",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Revell-Eden/TavernKeep.git"
+  },
+  "author": "Eden Revell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Revell-Eden/TavernKeep/issues"
+  },
+  "homepage": "https://github.com/Revell-Eden/TavernKeep#readme"
+}

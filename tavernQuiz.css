@@ -1,0 +1,68 @@
+* {
+    font-family: monospace;
+    font-size: 1em;
+    text-align: center;
+}
+body {
+    background: linear-gradient(-90deg,rgb(186, 0, 218), rgb(0, 0, 0));
+    margin: 0;
+}
+.quiz {
+    margin: 3em;
+}
+.cardQuiz {
+    margin: 0;
+}
+.quizBody {
+    flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.quizHeader {
+    width: 100%;
+}
+.quizHeader h3 {
+    margin: 0 0 2em 0;
+}
+form {
+    padding: 2em;
+    text-align: center;
+    display: flex;
+    color: #fff;
+    background: linear-gradient(-90deg,rgb(186, 0, 218), rgb(0, 0, 0));
+    border: 3px solid #fff;
+    border-radius: 3em;
+    margin: 0 0 0.5em 0;
+}
+option {
+    padding: 0.25em;
+    display: flex;
+    margin: 0.25em 1em;
+}
+.quizInput {
+    color: #fff;
+    padding: 0.25em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 4.6em;
+}
+.quizInput img {
+    padding: 0.25em;
+    width: 2em;
+    height: 2em;
+    border-radius: 0.5em;
+    vertical-align: -1em;
+}
+.inputRadio {
+    padding: 0.5em 2em;
+    line-height: 2em;
+    background-color: #1b1b1b;
+    border-radius: 0 1em 1em 0;
+}
+.radioLabel {
+    padding: 1em 0 1em 1em;
+    background-color: #1b1b1b;
+    border-radius: 2em 0 0 2em;
+}
